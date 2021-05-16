@@ -1,0 +1,3 @@
+D:/GitHub/Gstreamer/VideoFile2TCPServerStream/Windows/build/CMakeFiles/File2TCPStream.dir
+D:/GitHub/Gstreamer/VideoFile2TCPServerStream/Windows/build/CMakeFiles/ALL_BUILD.dir
+D:/GitHub/Gstreamer/VideoFile2TCPServerStream/Windows/build/CMakeFiles/ZERO_CHECK.dir

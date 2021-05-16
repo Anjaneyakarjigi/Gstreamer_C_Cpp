@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{84B00B1F-54AD-312D-9422-8E373195D7AE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows;D:\OpenCvFiles\opencv\sources\build;D:\OpenCvFiles\opencv\sources\include;D:\OpenCvFiles\opencv\sources\include\opencv;D:\OpenCvFiles\opencv\sources\modules\core\include;D:\OpenCvFiles\opencv\sources\modules\flann\include;D:\OpenCvFiles\opencv\sources\modules\imgproc\include;D:\OpenCvFiles\opencv\sources\modules\ml\include;D:\OpenCvFiles\opencv\sources\modules\phase_unwrapping\include;D:\OpenCvFiles\opencv\sources\modules\photo\include;D:\OpenCvFiles\opencv\sources\modules\plot\include;D:\OpenCvFiles\opencv\sources\modules\reg\include;D:\OpenCvFiles\opencv\sources\modules\surface_matching\include;D:\OpenCvFiles\opencv\sources\modules\video\include;D:\OpenCvFiles\opencv\sources\modules\xphoto\include;D:\OpenCvFiles\opencv\sources\modules\dnn\include;D:\OpenCvFiles\opencv\sources\modules\fuzzy\include;D:\OpenCvFiles\opencv\sources\modules\hfs\include;D:\OpenCvFiles\opencv\sources\modules\imgcodecs\include;D:\OpenCvFiles\opencv\sources\modules\shape\include;D:\OpenCvFiles\opencv\sources\modules\videoio\include;D:\OpenCvFiles\opencv\sources\modules\highgui\include;D:\OpenCvFiles\opencv\sources\modules\superres\include;D:\OpenCvFiles\opencv\sources\modules\bioinspired\include;D:\OpenCvFiles\opencv\sources\modules\dnn_objdetect\include;D:\OpenCvFiles\opencv\sources\modules\features2d\include;D:\OpenCvFiles\opencv\sources\modules\line_descriptor\include;D:\OpenCvFiles\opencv\sources\modules\saliency\include;D:\OpenCvFiles\opencv\sources\modules\text\include;D:\OpenCvFiles\opencv\sources\modules\calib3d\include;D:\OpenCvFiles\opencv\sources\modules\ccalib\include;D:\OpenCvFiles\opencv\sources\modules\datasets\include;D:\OpenCvFiles\opencv\sources\modules\objdetect\include;D:\OpenCvFiles\opencv\sources\modules\rgbd\include;D:\OpenCvFiles\opencv\sources\modules\stereo\include;D:\OpenCvFiles\opencv\sources\modules\structured_light\include;D:\OpenCvFiles\opencv\sources\modules\tracking\include;D:\OpenCvFiles\opencv\sources\modules\videostab\include;D:\OpenCvFiles\opencv\sources\modules\xfeatures2d\include;D:\OpenCvFiles\opencv\sources\modules\ximgproc\include;D:\OpenCvFiles\opencv\sources\modules\xobjdetect\include;D:\OpenCvFiles\opencv\sources\modules\aruco\include;D:\OpenCvFiles\opencv\sources\modules\bgsegm\include;D:\OpenCvFiles\opencv\sources\modules\dpm\include;D:\OpenCvFiles\opencv\sources\modules\face\include;D:\OpenCvFiles\opencv\sources\modules\optflow\include;D:\OpenCvFiles\opencv\sources\modules\stitching\include;D:\OpenCvFiles\opencv\sources\modules\world\include;D:\OpenCvFiles\opencv\sources\modules\img_hash\include;D:\OpenCvFiles\opencv\sources\modules\ts\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows;D:\OpenCvFiles\opencv\sources\build;D:\OpenCvFiles\opencv\sources\include;D:\OpenCvFiles\opencv\sources\include\opencv;D:\OpenCvFiles\opencv\sources\modules\core\include;D:\OpenCvFiles\opencv\sources\modules\flann\include;D:\OpenCvFiles\opencv\sources\modules\imgproc\include;D:\OpenCvFiles\opencv\sources\modules\ml\include;D:\OpenCvFiles\opencv\sources\modules\phase_unwrapping\include;D:\OpenCvFiles\opencv\sources\modules\photo\include;D:\OpenCvFiles\opencv\sources\modules\plot\include;D:\OpenCvFiles\opencv\sources\modules\reg\include;D:\OpenCvFiles\opencv\sources\modules\surface_matching\include;D:\OpenCvFiles\opencv\sources\modules\video\include;D:\OpenCvFiles\opencv\sources\modules\xphoto\include;D:\OpenCvFiles\opencv\sources\modules\dnn\include;D:\OpenCvFiles\opencv\sources\modules\fuzzy\include;D:\OpenCvFiles\opencv\sources\modules\hfs\include;D:\OpenCvFiles\opencv\sources\modules\imgcodecs\include;D:\OpenCvFiles\opencv\sources\modules\shape\include;D:\OpenCvFiles\opencv\sources\modules\videoio\include;D:\OpenCvFiles\opencv\sources\modules\highgui\include;D:\OpenCvFiles\opencv\sources\modules\superres\include;D:\OpenCvFiles\opencv\sources\modules\bioinspired\include;D:\OpenCvFiles\opencv\sources\modules\dnn_objdetect\include;D:\OpenCvFiles\opencv\sources\modules\features2d\include;D:\OpenCvFiles\opencv\sources\modules\line_descriptor\include;D:\OpenCvFiles\opencv\sources\modules\saliency\include;D:\OpenCvFiles\opencv\sources\modules\text\include;D:\OpenCvFiles\opencv\sources\modules\calib3d\include;D:\OpenCvFiles\opencv\sources\modules\ccalib\include;D:\OpenCvFiles\opencv\sources\modules\datasets\include;D:\OpenCvFiles\opencv\sources\modules\objdetect\include;D:\OpenCvFiles\opencv\sources\modules\rgbd\include;D:\OpenCvFiles\opencv\sources\modules\stereo\include;D:\OpenCvFiles\opencv\sources\modules\structured_light\include;D:\OpenCvFiles\opencv\sources\modules\tracking\include;D:\OpenCvFiles\opencv\sources\modules\videostab\include;D:\OpenCvFiles\opencv\sources\modules\xfeatures2d\include;D:\OpenCvFiles\opencv\sources\modules\ximgproc\include;D:\OpenCvFiles\opencv\sources\modules\xobjdetect\include;D:\OpenCvFiles\opencv\sources\modules\aruco\include;D:\OpenCvFiles\opencv\sources\modules\bgsegm\include;D:\OpenCvFiles\opencv\sources\modules\dpm\include;D:\OpenCvFiles\opencv\sources\modules\face\include;D:\OpenCvFiles\opencv\sources\modules\optflow\include;D:\OpenCvFiles\opencv\sources\modules\stitching\include;D:\OpenCvFiles\opencv\sources\modules\world\include;D:\OpenCvFiles\opencv\sources\modules\img_hash\include;D:\OpenCvFiles\opencv\sources\modules\ts\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows;D:\OpenCvFiles\opencv\sources\build;D:\OpenCvFiles\opencv\sources\include;D:\OpenCvFiles\opencv\sources\include\opencv;D:\OpenCvFiles\opencv\sources\modules\core\include;D:\OpenCvFiles\opencv\sources\modules\flann\include;D:\OpenCvFiles\opencv\sources\modules\imgproc\include;D:\OpenCvFiles\opencv\sources\modules\ml\include;D:\OpenCvFiles\opencv\sources\modules\phase_unwrapping\include;D:\OpenCvFiles\opencv\sources\modules\photo\include;D:\OpenCvFiles\opencv\sources\modules\plot\include;D:\OpenCvFiles\opencv\sources\modules\reg\include;D:\OpenCvFiles\opencv\sources\modules\surface_matching\include;D:\OpenCvFiles\opencv\sources\modules\video\include;D:\OpenCvFiles\opencv\sources\modules\xphoto\include;D:\OpenCvFiles\opencv\sources\modules\dnn\include;D:\OpenCvFiles\opencv\sources\modules\fuzzy\include;D:\OpenCvFiles\opencv\sources\modules\hfs\include;D:\OpenCvFiles\opencv\sources\modules\imgcodecs\include;D:\OpenCvFiles\opencv\sources\modules\shape\include;D:\OpenCvFiles\opencv\sources\modules\videoio\include;D:\OpenCvFiles\opencv\sources\modules\highgui\include;D:\OpenCvFiles\opencv\sources\modules\superres\include;D:\OpenCvFiles\opencv\sources\modules\bioinspired\include;D:\OpenCvFiles\opencv\sources\modules\dnn_objdetect\include;D:\OpenCvFiles\opencv\sources\modules\features2d\include;D:\OpenCvFiles\opencv\sources\modules\line_descriptor\include;D:\OpenCvFiles\opencv\sources\modules\saliency\include;D:\OpenCvFiles\opencv\sources\modules\text\include;D:\OpenCvFiles\opencv\sources\modules\calib3d\include;D:\OpenCvFiles\opencv\sources\modules\ccalib\include;D:\OpenCvFiles\opencv\sources\modules\datasets\include;D:\OpenCvFiles\opencv\sources\modules\objdetect\include;D:\OpenCvFiles\opencv\sources\modules\rgbd\include;D:\OpenCvFiles\opencv\sources\modules\stereo\include;D:\OpenCvFiles\opencv\sources\modules\structured_light\include;D:\OpenCvFiles\opencv\sources\modules\tracking\include;D:\OpenCvFiles\opencv\sources\modules\videostab\include;D:\OpenCvFiles\opencv\sources\modules\xfeatures2d\include;D:\OpenCvFiles\opencv\sources\modules\ximgproc\include;D:\OpenCvFiles\opencv\sources\modules\xobjdetect\include;D:\OpenCvFiles\opencv\sources\modules\aruco\include;D:\OpenCvFiles\opencv\sources\modules\bgsegm\include;D:\OpenCvFiles\opencv\sources\modules\dpm\include;D:\OpenCvFiles\opencv\sources\modules\face\include;D:\OpenCvFiles\opencv\sources\modules\optflow\include;D:\OpenCvFiles\opencv\sources\modules\stitching\include;D:\OpenCvFiles\opencv\sources\modules\world\include;D:\OpenCvFiles\opencv\sources\modules\img_hash\include;D:\OpenCvFiles\opencv\sources\modules\ts\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows;D:\OpenCvFiles\opencv\sources\build;D:\OpenCvFiles\opencv\sources\include;D:\OpenCvFiles\opencv\sources\include\opencv;D:\OpenCvFiles\opencv\sources\modules\core\include;D:\OpenCvFiles\opencv\sources\modules\flann\include;D:\OpenCvFiles\opencv\sources\modules\imgproc\include;D:\OpenCvFiles\opencv\sources\modules\ml\include;D:\OpenCvFiles\opencv\sources\modules\phase_unwrapping\include;D:\OpenCvFiles\opencv\sources\modules\photo\include;D:\OpenCvFiles\opencv\sources\modules\plot\include;D:\OpenCvFiles\opencv\sources\modules\reg\include;D:\OpenCvFiles\opencv\sources\modules\surface_matching\include;D:\OpenCvFiles\opencv\sources\modules\video\include;D:\OpenCvFiles\opencv\sources\modules\xphoto\include;D:\OpenCvFiles\opencv\sources\modules\dnn\include;D:\OpenCvFiles\opencv\sources\modules\fuzzy\include;D:\OpenCvFiles\opencv\sources\modules\hfs\include;D:\OpenCvFiles\opencv\sources\modules\imgcodecs\include;D:\OpenCvFiles\opencv\sources\modules\shape\include;D:\OpenCvFiles\opencv\sources\modules\videoio\include;D:\OpenCvFiles\opencv\sources\modules\highgui\include;D:\OpenCvFiles\opencv\sources\modules\superres\include;D:\OpenCvFiles\opencv\sources\modules\bioinspired\include;D:\OpenCvFiles\opencv\sources\modules\dnn_objdetect\include;D:\OpenCvFiles\opencv\sources\modules\features2d\include;D:\OpenCvFiles\opencv\sources\modules\line_descriptor\include;D:\OpenCvFiles\opencv\sources\modules\saliency\include;D:\OpenCvFiles\opencv\sources\modules\text\include;D:\OpenCvFiles\opencv\sources\modules\calib3d\include;D:\OpenCvFiles\opencv\sources\modules\ccalib\include;D:\OpenCvFiles\opencv\sources\modules\datasets\include;D:\OpenCvFiles\opencv\sources\modules\objdetect\include;D:\OpenCvFiles\opencv\sources\modules\rgbd\include;D:\OpenCvFiles\opencv\sources\modules\stereo\include;D:\OpenCvFiles\opencv\sources\modules\structured_light\include;D:\OpenCvFiles\opencv\sources\modules\tracking\include;D:\OpenCvFiles\opencv\sources\modules\videostab\include;D:\OpenCvFiles\opencv\sources\modules\xfeatures2d\include;D:\OpenCvFiles\opencv\sources\modules\ximgproc\include;D:\OpenCvFiles\opencv\sources\modules\xobjdetect\include;D:\OpenCvFiles\opencv\sources\modules\aruco\include;D:\OpenCvFiles\opencv\sources\modules\bgsegm\include;D:\OpenCvFiles\opencv\sources\modules\dpm\include;D:\OpenCvFiles\opencv\sources\modules\face\include;D:\OpenCvFiles\opencv\sources\modules\optflow\include;D:\OpenCvFiles\opencv\sources\modules\stitching\include;D:\OpenCvFiles\opencv\sources\modules\world\include;D:\OpenCvFiles\opencv\sources\modules\img_hash\include;D:\OpenCvFiles\opencv\sources\modules\ts\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\63c94c7df46ff1ff42a23331399957ba\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows -BD:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows/build/RTP2OpenCvVideoCap.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\CMakeLists.txt;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeCCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeCXXCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeRCCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeSystem.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVConfig-version.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVConfig.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows -BD:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows/build/RTP2OpenCvVideoCap.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\CMakeLists.txt;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeCCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeCXXCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeRCCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeSystem.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVConfig-version.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVConfig.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows -BD:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows/build/RTP2OpenCvVideoCap.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\CMakeLists.txt;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeCCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeCXXCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeRCCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeSystem.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVConfig-version.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVConfig.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows -BD:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/GitHub/Gstreamer/RTP2OpenCvVideoCap/Windows/build/RTP2OpenCvVideoCap.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\CMakeLists.txt;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeCCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeCXXCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeRCCompiler.cmake;D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\3.14.6\CMakeSystem.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVConfig-version.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVConfig.cmake;D:\OpenCvFiles\opencv\sources\build\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,3 @@
+/home/ak/Gstreamer/VideoFile2RTPServerStream/Linux/build/CMakeFiles/rebuild_cache.dir
+/home/ak/Gstreamer/VideoFile2RTPServerStream/Linux/build/CMakeFiles/File2RTPStream.dir
+/home/ak/Gstreamer/VideoFile2RTPServerStream/Linux/build/CMakeFiles/edit_cache.dir

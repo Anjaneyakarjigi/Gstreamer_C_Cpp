@@ -1,0 +1,3 @@
+D:/GitHub/Gstreamer/UDP2OpenCvVideoCap/Windows/build/CMakeFiles/UDP2OpenCvVideoCap.dir
+D:/GitHub/Gstreamer/UDP2OpenCvVideoCap/Windows/build/CMakeFiles/ALL_BUILD.dir
+D:/GitHub/Gstreamer/UDP2OpenCvVideoCap/Windows/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,3 @@
+D:/GitHub/Gstreamer/Webcam2File/Windows/build/CMakeFiles/Webcam2FileRecord.dir
+D:/GitHub/Gstreamer/Webcam2File/Windows/build/CMakeFiles/ALL_BUILD.dir
+D:/GitHub/Gstreamer/Webcam2File/Windows/build/CMakeFiles/ZERO_CHECK.dir

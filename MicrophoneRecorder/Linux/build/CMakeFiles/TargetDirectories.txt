@@ -1,0 +1,3 @@
+/home/ak/Gstreamer/MikeRecorder/build/CMakeFiles/rebuild_cache.dir
+/home/ak/Gstreamer/MikeRecorder/build/CMakeFiles/MikeRecoderToFile.dir
+/home/ak/Gstreamer/MikeRecorder/build/CMakeFiles/edit_cache.dir

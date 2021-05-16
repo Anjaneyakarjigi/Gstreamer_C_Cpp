@@ -1,0 +1,3 @@
+D:/GitHub/Gstreamer/MicrophoneRecorder/Windows/build/CMakeFiles/MicrophoneRecoderToFile.dir
+D:/GitHub/Gstreamer/MicrophoneRecorder/Windows/build/CMakeFiles/ALL_BUILD.dir
+D:/GitHub/Gstreamer/MicrophoneRecorder/Windows/build/CMakeFiles/ZERO_CHECK.dir

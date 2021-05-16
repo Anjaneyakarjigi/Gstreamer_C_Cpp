@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\Gstreamer\MicrophoneRecorder\Windows\build\CMakeFiles\88d987027f706840ee9f468f36f71096\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6B610A5C-3DD1-3F70-BEA9-69B0C703DAE1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Webcam2FileRecord.dir/Webcam2FileRecord.cpp.o  -o ../Webcam2FileRecord -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 

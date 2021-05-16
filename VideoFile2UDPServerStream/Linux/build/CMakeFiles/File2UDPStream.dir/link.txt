@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/File2UDPStream.dir/Stream_Video2UDP_Server.cpp.o  -o ../File2UDPStream -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 

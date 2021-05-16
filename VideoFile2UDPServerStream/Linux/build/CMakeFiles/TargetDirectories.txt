@@ -1,0 +1,3 @@
+/home/ak/Gstreamer/VideoFile2UDPServerStream/Linux/build/CMakeFiles/rebuild_cache.dir
+/home/ak/Gstreamer/VideoFile2UDPServerStream/Linux/build/CMakeFiles/File2UDPStream.dir
+/home/ak/Gstreamer/VideoFile2UDPServerStream/Linux/build/CMakeFiles/edit_cache.dir

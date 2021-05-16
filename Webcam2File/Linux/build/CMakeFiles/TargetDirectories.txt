@@ -1,0 +1,3 @@
+/home/ak/Gstreamer/Webcam2File/Linux/build/CMakeFiles/rebuild_cache.dir
+/home/ak/Gstreamer/Webcam2File/Linux/build/CMakeFiles/Webcam2FileRecord.dir
+/home/ak/Gstreamer/Webcam2File/Linux/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,3 @@
+D:/GitHub/Gstreamer/Appsrc_OpenCv2UDP/Windows/build/CMakeFiles/Appsrc_OpenCv2UDP.dir
+D:/GitHub/Gstreamer/Appsrc_OpenCv2UDP/Windows/build/CMakeFiles/ALL_BUILD.dir
+D:/GitHub/Gstreamer/Appsrc_OpenCv2UDP/Windows/build/CMakeFiles/ZERO_CHECK.dir

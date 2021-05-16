@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\Gstreamer\Webcam2UDP\Windows\build\CMakeFiles\0394995327382a40d2b6e261e00217a4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CCE08E79-BB56-3FE3-A76B-6D82ACBD3242}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

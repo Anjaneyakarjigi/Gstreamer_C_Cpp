@@ -1,0 +1,28 @@
+Hi, guys
+This project gives you simple C++ program that sends webcam/microphone streams on UDP, TCP , RTC and stores into file based on selected input.
+Below brief gives input arguments selection.
+
+requires 4 input arguments to run .exe
+<exe_name>	<OutputProtocol>	<IPaddress/FileName>	<PORT> 
+
+
+arguments [0]	exe_name // Takes by default
+
+arg[1]		OutputProtocolConfiguration, below gives list of input 
+			arg[1] = 1 -> filestream,
+			arg[1] = 2 -> UDP stream, 
+			arg[1] = 3 -> TCP stream, 
+			arg[1] = 4 -> RTP stream.
+
+arg[2] 		IP address of Server/File name if it is filestream 
+arg[3] 		Port address of Server
+
+
+Example 1: TO stream over UDP On Local IP adress and 8554 local port
+exe_name.exe 	2	127.0.0.1	8554
+
+Example 2: TO stream over RTP On Local IP adress and 8554 local port
+exe_name.exe 	4	127.0.0.1	8554
+
+Example 3: TO store into file
+exe_name.exe 	1	RecordedFile.mp4	0				//port is required, send it as 0

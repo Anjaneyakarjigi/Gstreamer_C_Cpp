@@ -1,0 +1,3 @@
+D:/GitHub/Gstreamer/TCP2OpenCvVideoCap/Windows/build/CMakeFiles/TCP2OpenCvVideoCap.dir
+D:/GitHub/Gstreamer/TCP2OpenCvVideoCap/Windows/build/CMakeFiles/ALL_BUILD.dir
+D:/GitHub/Gstreamer/TCP2OpenCvVideoCap/Windows/build/CMakeFiles/ZERO_CHECK.dir

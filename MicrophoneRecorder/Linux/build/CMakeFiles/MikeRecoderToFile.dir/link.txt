@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/MikeRecoderToFile.dir/GstMikeRecorder.cpp.o  -o ../MikeRecoderToFile -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 

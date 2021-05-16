@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/File2RTPStream.dir/Stream_Video2RTP_Server.cpp.o  -o ../File2RTPStream -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 

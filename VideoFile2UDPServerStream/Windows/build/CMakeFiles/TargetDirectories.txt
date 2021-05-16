@@ -1,0 +1,3 @@
+D:/GitHub/Gstreamer/VideoFile2UDPServerStream/Windows/build/CMakeFiles/File2UDPStream.dir
+D:/GitHub/Gstreamer/VideoFile2UDPServerStream/Windows/build/CMakeFiles/ALL_BUILD.dir
+D:/GitHub/Gstreamer/VideoFile2UDPServerStream/Windows/build/CMakeFiles/ZERO_CHECK.dir

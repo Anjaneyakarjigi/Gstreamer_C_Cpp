@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\RTP2OpenCvVideoCap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\Gstreamer\RTP2OpenCvVideoCap\Windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C61DBAD8-168E-3517-B247-C4ECF27C1D74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
